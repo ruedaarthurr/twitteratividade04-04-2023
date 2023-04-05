@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 6vh;
+    margin-left: 6vh;
+    text-align: center;
+    background-color:green;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(79, 95, 32, 0.69);
+    padding: 2vh 0;
+}
+
+header h1 {
+    font-size: 6vh;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+img {
+    height:0%
+    width:auto;
+}
+
+button:hover {
+    background-color: rgb(3, 100, 245);
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: 0.3vh solid black;
+    border-radius: 1vh;
+    padding: 1vh 2vh;
+    margin: 1.5vh 0 0 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button {
+    text-decoration: none;
+    background-color: rgba(242, 4, 4, 0.534);
+    color: rgb(0, 0, 0);
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: 0.3vh solid black;
+    border-radius: 1vh;
+    padding: 1vh 2vh;
+    margin: 1.5vh 0 0 0;
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 0%;
+}
+
+.mainleft,
+.mainright {
+    width: 100%;
+    height: 100px;
+}
+
+.mainleft {
+    background-color: rgba(77, 95, 114, 0.692);
+    height: 20vh;
+}
+
+
+main p {
+    text-align: justify;
+    margin: 4vh 3vh 3vh 3vh;
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 20vh;
+}
+
+h3 {
+    margin-top: 6vh;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+footer div {
+    background-color:yellow
+    padding: 1.5vh 0;
+    margin-top: 0vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: bold;
+}
